@@ -35,7 +35,3 @@ grep -qxF "alias npm='pnpm'" ~/.zshrc || \
 ### Pre-commit hooks
 echo "🔗 Installing pre-commit hooks (takes a minute, be patient)..."
 pre-commit install --install-hooks > /dev/null
-
-### Generate Cloudflare types
-echo "🪄 Generating Cloudflare types..."
-pnpm run cf-typegen
