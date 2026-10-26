@@ -88,8 +88,8 @@ importers:
         specifier: ^4.1.0
         version: 4.3.0(prettier@3.9.10)(typescript@5.9.3)
       prettier-plugin-packagejson:
-        specifier: ^2.5.15
-        version: 2.5.22(prettier@3.9.10)
+        specifier: ^3.0.0
+        version: 3.0.3(prettier@3.9.10)
       prettier-plugin-sort-json:
         specifier: ^4.1.1
         version: 4.2.0(prettier@3.9.10)
@@ -3035,10 +3035,10 @@ packages:
       vue-tsc:
         optional: true
 
-  prettier-plugin-packagejson@2.5.22:
-    resolution: {integrity: sha512-G6WalmoUssKF8ZXkni0+n4324K+gG143KPysSQNW+FrR0XyNb3BdRxchGC/Q1FE/F702p7/6KU7r4mv0WSWbzA==}
+  prettier-plugin-packagejson@3.0.3:
+    resolution: {integrity: sha512-qhxhcs3/ppNH8ZhFMbMnucE9VqITVn3Vvu/LF0jcWfVJqlgEo1c9eoiTr1WiaMIKbEEqQb4JTZ8MBZGtGRfAoQ==}
     peerDependencies:
-      prettier: '>= 1.16.0'
+      prettier: ^3
     peerDependenciesMeta:
       prettier:
         optional: true
@@ -3166,11 +3166,6 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  semver@7.7.3:
-    resolution: {integrity: sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==}
-    engines: {node: '>=10'}
-    hasBin: true
-
   semver@7.8.5:
     resolution: {integrity: sha512-Y7/KDsb8LjooZpwaqGyulO6DQlksgCncchHGk+sZIY4SBvUocMBEFH5Ur1fI4dV+Jvl0w6cjvucaIi40puRioA==}
     engines: {node: '>=10'}
@@ -3254,9 +3249,9 @@ packages:
   sort-object-keys@2.1.0:
     resolution: {integrity: sha512-SOiEnthkJKPv2L6ec6HMwhUcN0/lppkeYuN1x63PbyPRrgSPIuBJCiYxYyvWRTtjMlOi14vQUCGUJqS6PLVm8g==}
 
-  sort-package-json@3.6.0:
-    resolution: {integrity: sha512-fyJsPLhWvY7u2KsKPZn1PixbXp+1m7V8NWqU8CvgFRbMEX41Ffw1kD8n0CfJiGoaSfoAvbrqRRl/DcHO8omQOQ==}
-    engines: {node: '>=20'}
+  sort-package-json@4.1.0:
+    resolution: {integrity: sha512-CI7HgkV5rCE5dbYYJMuXkxgiSLc3uJczff9ic3kHuY5QRYKUbfsDSKN4DjTpvqejdJEkKLusQ64ykTte5ypr1A==}
+    engines: {node: '>=22'}
     hasBin: true
 
   source-map-js@1.2.1:
@@ -6858,9 +6853,9 @@ snapshots:
       prettier: 3.9.10
       typescript: 5.9.3
 
-  prettier-plugin-packagejson@2.5.22(prettier@3.9.10):
+  prettier-plugin-packagejson@3.0.3(prettier@3.9.10):
     dependencies:
-      sort-package-json: 3.6.0
+      sort-package-json: 4.1.0
     optionalDependencies:
       prettier: 3.9.10
 
@@ -6997,8 +6992,6 @@ snapshots:
   semver@6.3.1: {}
 
   semver@7.7.2: {}
-
-  semver@7.7.3: {}
 
   semver@7.8.5: {}
 
@@ -7170,13 +7163,13 @@ snapshots:
 
   sort-object-keys@2.1.0: {}
 
-  sort-package-json@3.6.0:
+  sort-package-json@4.1.0:
     dependencies:
       detect-indent: 7.0.2
       detect-newline: 4.0.1
       git-hooks-list: 4.2.1
       is-plain-obj: 4.1.0
-      semver: 7.7.3
+      semver: 7.8.5
       sort-object-keys: 2.1.0
       tinyglobby: 0.2.15
 
